@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #005f73;
+}
+
+.container {
+  max-width: 960px;
+}
+
+.box {
+  width: 25px;
+  height: 25px;
+  background-color: burlywood;
+  border: 0.5px solid rgba(0, 0, 0, 0.432);
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+}
+
+.selected {
+  background-color: #94d2bd;
+}
